@@ -16,6 +16,7 @@ This guide assumes you know how to use the command-line and that your machine ha
 - run `php bin/console server:run`
 
 Additional useful commands.
+- run `php bin/console app:seed:dev` to fill a development database with fake users and published decklists (including votes, favorites, and comments) so there is data to browse and test against. `--users=N` and `--decklists=N` control the amounts. Never run against a production database.
 - run `composer install` to rebuild minified JS files after making changes to the raw files.
 - run `php bin/console doctrine:schema:update --dump-sql` to view database schema changes.
 - run `php bin/console doctrine:schema:update --force` to execute database schema changes.
