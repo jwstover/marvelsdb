@@ -22,3 +22,4 @@ tags
 .DS_Store
 /web/*.json
 /var
+/marvelsdb-json-data/
